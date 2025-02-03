@@ -31,7 +31,7 @@ const Manager = () => {
 
     const savePassword = () => {
         toast('Password Save', {
-            position: "bottom-right",
+            position: "top-right",
             autoClose: 2000,
             hideProgressBar: false,
             closeOnClick: false,
@@ -49,7 +49,7 @@ const Manager = () => {
     }
     const deletePassword = (id) => {
         toast('Deleted', {
-            position: "bottom-right",
+            position: "top-right",
             autoClose: 2000,
             hideProgressBar: false,
             closeOnClick: false,
@@ -76,7 +76,7 @@ const Manager = () => {
 
     const copyText = (text) => {
         toast('Text Copied', {
-            position: "bottom-right",
+            position: "top-right",
             autoClose: 2000,
             hideProgressBar: false,
             closeOnClick: false,
@@ -92,7 +92,7 @@ const Manager = () => {
     return (
         <>
             <ToastContainer
-                position="bottom-right"
+                position="top-right"
                 autoClose={2000}
                 hideProgressBar={false}
                 newestOnTop={false}
