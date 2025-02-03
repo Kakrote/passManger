@@ -161,36 +161,39 @@ const Manager = () => {
                                     <td className=' text-center border border-lime-500'>
                                         <div className="flex justify-center items-center">
                                             <a href={items.site} target='_black'>{items.site}</a>
-                                            <div className='copyIcons size-7' onClick={() => { copyText(items.username) }}>
-                                                <lord-icon
+                                            <div className='copyIcons size-4' onClick={() => { copyText(items.username) }}>
+                                                {/* <lord-icon
                                                     src="https://cdn.lordicon.com/gsjfryhc.json"
                                                     trigger="click"
                                                     style={{ "width": "20px", "height": "20px", "paddingLeft": "2px", "paddingTop": "3px" }}>
-                                                </lord-icon>
+                                                </lord-icon> */}
+                                                <img src="/icons/copyicon.png" alt="copy" className=''/>
                                             </div>
                                         </div>
                                     </td>
                                     <td className='text-center border border-lime-500'>
                                         <div className="flex justify-center items-center">
                                             <span>{items.username}</span>
-                                            <div className='copyIcons size-7' onClick={() => { copyText(items.username) }}>
-                                                <lord-icon
+                                            <div className='copyIcons size-4' onClick={() => { copyText(items.username) }}>
+                                                {/* <lord-icon
                                                     src="https://cdn.lordicon.com/gsjfryhc.json"
                                                     trigger="click"
                                                     style={{ "width": "20px", "height": "20px", "paddingLeft": "2px", "paddingTop": "3px" }}>
-                                                </lord-icon>
+                                                </lord-icon> */}
+                                                <img src="/icons/copyicon.png" alt="copy" className=''/>
                                             </div>
                                         </div>
                                     </td>
                                     <td className='  text-center border border-lime-500'>
                                         <div className="flex justify-center items-center">
                                             <span>{items.password}</span>
-                                            <div className='copyIcons size-7' onClick={() => { copyText(items.username) }}>
-                                                <lord-icon
+                                            <div className='copyIcons size-4' onClick={() => { copyText(items.username) }}>
+                                                {/* <lord-icon
                                                     src="https://cdn.lordicon.com/gsjfryhc.json"
                                                     trigger="click"
                                                     style={{ "width": "20px", "height": "20px", "paddingLeft": "2px", "paddingTop": "3px" }}>
-                                                </lord-icon>
+                                                </lord-icon> */}
+                                                <img src="/icons/copyicon.png" alt="copy" className=''/>
                                             </div>
                                         </div>
                                     </td>
