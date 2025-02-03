@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .myinput {
+      @apply m-2 text-neutral-900 rounded-full border-2 border-fuchsia-300 px-2 focus:outline-none py-1 text-sm  
+    }
+  }
