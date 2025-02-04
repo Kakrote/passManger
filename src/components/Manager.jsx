@@ -108,7 +108,7 @@ const Manager = () => {
 
             {/* this is our main conatent of the page  */}
 
-            <div className=" mx-auto max-w-4xl m-2 container rounded-xl flex flex-col  items-center cursor-pointer min-h-[81.56vh]">
+            <div className=" mx-auto max-w-4xl m-2 container rounded-xl flex flex-col  min-w-full items-center cursor-pointer min-h-[81.56vh]">
                 <h1 className='font-bold text-3xl rounded-full px-2 py-1 text-center text-lime-500 shadow-[0_0_15px_#65B50D] w-fit'>
                     <span>Pass</span>
                     <span className='text-3xl text-lime-700'>Mange/&gt;</span>
