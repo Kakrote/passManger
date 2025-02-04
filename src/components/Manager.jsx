@@ -104,11 +104,11 @@ const Manager = () => {
                 theme="dark"
 
             />
-            <div className="absolute inset-0 -z-10 h-full w-full bg-lime-100 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"><div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-lime-50 opacity-10 blur-[10px]"></div></div>
+            <div className="absolute  inset-0 -z-10 h-full w-full bg-lime-100 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"><div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-lime-50 opacity-10 blur-[10px]"></div></div>
 
             {/* this is our main conatent of the page  */}
 
-            <div className=" mx-auto max-w-4xl m-2  rounded-xl flex flex-col justify-center items-center cursor-pointer">
+            <div className=" mx-auto max-w-4xl m-2 container rounded-xl flex flex-col  items-center cursor-pointer min-h-[81.56vh]">
                 <h1 className='font-bold text-3xl rounded-full px-2 py-1 text-center text-lime-500 shadow-[0_0_15px_#65B50D] w-fit'>
                     <span>Pass</span>
                     <span className='text-3xl text-lime-700'>Mange/&gt;</span>
