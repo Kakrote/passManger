@@ -186,8 +186,8 @@ const Manager = () => {
                                     </td>
                                     <td className='  text-center border border-lime-500'>
                                         <div className="flex justify-center items-center">
-                                            <span>{items.password}</span>
-                                            <div className='copyIcons size-4' onClick={() => { copyText(items.username) }}>
+                                            <span>{"*".repeat(items.password.length)}</span>
+                                            <div className='copyIcons size-4' onClick={() => { copyText(items.password) }}>
                                                 {/* <lord-icon
                                                     src="https://cdn.lordicon.com/gsjfryhc.json"
                                                     trigger="click"
